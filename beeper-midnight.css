@@ -13,7 +13,7 @@
 }
 
 /* Makes the input for custom CSS in Beeper preferences larger in order to make editing easier */
-mx_AppearanceUserSettingsTab .mx_Field.mx_Field_textarea {
+.mx_AppearanceUserSettingsTab .mx_Field.mx_Field_textarea {
   width: 100% !important;
   height: 500px !important;
 }
