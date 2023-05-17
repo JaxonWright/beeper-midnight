@@ -10,6 +10,8 @@
   --left-panel-bg: var(--primary-color);  /* the background of the list of chats on the left */
   --chat-header-bg: var(--primary-color); /* the background of the current chat's header */
   --chat-panel-bg: var(--primary-color);  /* the background of the current chat */
+  --left-panel-v2-bg-no-transparency--windows: var(--primary-color); /* variable that controls bg of source list on the very left of new layout */
+  --left-panel-bg-no-transparency: var(--primary-color); /* variable that controls bg of source list on the very left of new layout */
 }
 
 /* Makes the input for custom CSS in Beeper preferences larger in order to make editing easier */
@@ -29,7 +31,8 @@
 }
 
 /* Left Panel */
-.bp_LeftPanel, .bp_LeftPanel .rooms_subtitle-container, .bp_RoomTile .actions-container .info {
+.bp_LeftPanel, .bp_LeftPanel .rooms_subtitle-container, .bp_RoomTile .actions-container .info,
+.mx_MatrixChat_wrapper--windows .bp_LeftPanel, .mx_MatrixChat_wrapper--linux .bp_LeftPanel {
   background-color: var(--left-panel-bg);
 }
 
