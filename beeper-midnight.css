@@ -1,5 +1,5 @@
 /***
- *  Beeper Midnight - v1.1 - May 16, 2023
+ *  Beeper Midnight - v1.2 - May 31, 2023
  *  a simple pitch-black theme for the Beeper desktop client
  ***/
 
@@ -10,6 +10,7 @@
   --left-panel-bg: var(--primary-color);  /* the background of the list of chats on the left */
   --chat-header-bg: var(--primary-color); /* the background of the current chat's header */
   --chat-panel-bg: var(--primary-color);  /* the background of the current chat */
+  --dialog-bg: var(--primary-color);      /* the background of dialogs */
   --left-panel-v2-bg-no-transparency--windows: var(--primary-color); /* variable that controls bg of source list on the very left of new layout */
   --left-panel-bg-no-transparency: var(--primary-color); /* variable that controls bg of source list on the very left of new layout */
 }
@@ -49,6 +50,11 @@
 /* message composer */
 .mx_MessageComposer {
   background: var(--chat-panel-bg);
+}
+
+/* Dialogs */
+.mx_Dialog {
+   background-color: var(--dialog-bg);
 }
 
 /* padding of message bubbles */
