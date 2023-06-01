@@ -1,5 +1,5 @@
 /***
- *  Beeper Midnight - v1.2 - May 31, 2023
+ *  Beeper Midnight - v1.3 - May 31, 2023
  *  a simple pitch-black theme for the Beeper desktop client
  ***/
 
@@ -55,6 +55,12 @@
 /* Dialogs */
 .mx_Dialog {
    background-color: var(--dialog-bg);
+}
+
+/* Room information */
+.dark-panel,
+.mx_RightPanel_ResizeWrapper {
+   background-color: var(--primary-color); 
 }
 
 /* padding of message bubbles */
